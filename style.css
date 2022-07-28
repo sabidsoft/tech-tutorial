@@ -2,3 +2,10 @@
 .slider .image{
     min-height: 350px;
 }
+
+/* media query */
+@media (max-width: 575.98px){
+    .course-image {
+        width: 100%;
+    }
+}
