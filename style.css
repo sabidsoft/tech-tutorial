@@ -3,6 +3,12 @@
     min-height: 350px;
 }
 
+/* ---registration section--- */
+.registration .modal-button .register-button {
+    color: #0DCAF0;
+    background-color: #fff;
+}
+
 /* media query */
 @media (max-width: 575.98px){
     .course-image {
