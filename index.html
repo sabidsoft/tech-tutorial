@@ -10,6 +10,9 @@
     <!-- favicon -->
     <link rel="shortcut icon" href="./images/course/course-3.png" type="image/x-icon">
 
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
     <!-- bootstrap css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
 
@@ -53,29 +56,29 @@
             <button type="button" class="btn btn-outline-info d-none d-lg-block">Register</button>
           </div>
         </nav>
-
         <!-- slider -->
         <section class="slider">
           <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
             <div class="carousel-inner">
-              <div class="carousel-item active">
+              <div class="carousel-item custom-carousel-item active">
                 <img src="./images/cover/cover-1.png" class="d-block w-100 image" alt="first cover image">
-                <div class="carousel-caption h-100 d-flex flex-column justify-content-center align-items-center">
+                <div class="carousel-caption custom-carousel-caption h-100 d-flex flex-column justify-content-center align-items-center">
                   <h1 class="mb-3 mt-4">Get Started Tech Tutorial</h1>
                   <p class="mb-4">It is a great learning store fore beginners. Explore it.<br>You can learn a lot.</p>
                   <button type="button" class="btn btn-info py-2 px-3 text-white fw-bold">Get Started</button>
                 </div>
               </div>
-              <div class="carousel-item">
-                <img src="./images/cover/cover-2.jpg" class="d-block w-100 image" alt="second cover image">
-                <div class="carousel-caption h-100 d-flex flex-column justify-content-center align-items-center">
+              <div class="carousel-item custom-carousel-item">
+                <img src="./images/cover/cover-2.jpg" class="d-block w-100 image" alt="first cover image">
+                <div class="carousel-caption custom-carousel-caption h-100 d-flex flex-column justify-content-center align-items-center">
                   <h1 class="mb-3 mt-4">Get Started Tech Tutorial</h1>
                   <p class="mb-4">It is a great learning store fore beginners. Explore it.<br>You can learn a lot.</p>
                   <button type="button" class="btn btn-info py-2 px-3 text-white fw-bold">Get Started</button>
                 </div>
-              <div class="carousel-item">
-                <img src="./images/cover/cover-3.jpg" class="d-block w-100 image" alt="third cover image">
-                <div class="carousel-caption h-100 d-flex flex-column justify-content-center align-items-center">
+              </div>
+              <div class="carousel-item custom-carousel-item">
+                <img src="./images/cover/cover-3.jpg" class="d-block w-100 image" alt="first cover image">
+                <div class="carousel-caption custom-carousel-caption h-100 d-flex flex-column justify-content-center align-items-center">
                   <h1 class="mb-3 mt-4">Get Started Tech Tutorial</h1>
                   <p class="mb-4">It is a great learning store fore beginners. Explore it.<br>You can learn a lot.</p>
                   <button type="button" class="btn btn-info py-2 px-3 text-white fw-bold">Get Started</button>
@@ -193,7 +196,6 @@
             <div class="modal-button">
               <!-- button trigger modal -->
               <button type="button" class="btn btn-info fs-4 fw-bold px-4 py-2 register-button" data-bs-toggle="modal" data-bs-target="#registrationModal">Register Now</button>
-              
               <!-- modal -->
               <div class="modal fade" id="registrationModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
@@ -240,7 +242,6 @@
               If you have any question please explore below. If you have more question please contact with us.
             </p>
           </div>
-
           <!-- accordion -->
           <div class="accordion" id="accordionExample">
             <div class="accordion-item">
@@ -303,7 +304,7 @@
         </div>
       </section>
 
-      <!-- companies -->
+      <!-- companies section-->
       <section class="my-5 d-none d-lg-block">
         <div class="container">
           <div class="companies py-5">
@@ -320,6 +321,27 @@
         </div>
       </section>
     </main>
+
+    <!-- footer section -->
+    <footer class="container-fluid bg-dark py-5">
+      <section class="footer-section py-5">
+        <div class="text-center text-white">
+          <h1 class="mb-4">Tech Tutorial</h1>
+          <p class="mb-1">Office 41, Zawaya Buildin, Ghala Muscat,</p>
+          <p class="mb-1">Sultanate of Oman</p>
+          <p class="mb-1">
+            <a class="text-white text-decoration-none me-2" href="#">Privacy Policy</a>
+            <span class="">|</span>
+            <a class="text-white text-decoration-none ms-2" href="#">Terms of use</a>
+          </p>
+          <p class="mt-4">
+            <a class="text-white fs-4 me-2" href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+            <a class="text-white fs-4 me-2" href="https://twitter.com/" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+            <a class="text-white fs-4" href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          </p>
+        </div>
+      </section>
+    </footer>
 
     <!-- bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>

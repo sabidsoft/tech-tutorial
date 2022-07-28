@@ -1,6 +1,22 @@
-/* ---slider--- */
+/* ---slider section--- */
 .slider .image{
     min-height: 350px;
+}
+
+/* creating background overlay */
+.custom-carousel-item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .6);
+}
+
+/* placing above */
+.custom-carousel-caption{
+    z-index: 1;
 }
 
 /* ---registration section--- */
@@ -9,8 +25,9 @@
     background-color: #fff;
 }
 
-/* media query */
+/* ---media query--- */
 @media (max-width: 575.98px){
+    /* courses section */
     .course-image {
         width: 100%;
     }
